@@ -1,0 +1,19 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/backend",
+        "${workspaceFolder}/backend/app"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/backend",
+        "${workspaceFolder}/backend/app"
+    ],
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "",
+            "depth": 5
+        }
+    ],
+    "python.defaultInterpreterPath": "${workspaceFolder}/backend/venv/Scripts/python.exe",
+    "css.lint.unknownAtRules": "ignore"
+}
