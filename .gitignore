@@ -1,0 +1,15 @@
+# Mengabaikan environment dan cache Backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/*.db
+backend/chroma_db/
+
+# Mengabaikan dependensi dan build Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# File sistem OS
+.DS_Store
+Thumbs.db
